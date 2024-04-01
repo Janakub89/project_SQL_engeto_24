@@ -1,5 +1,6 @@
-
 -- Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+-- Discord: jana_04527
+
 USE engeto_2024_02_22;
 
 CREATE VIEW v_jana_kubisova_payroll_annual AS
@@ -22,5 +23,5 @@ JOIN v_jana_kubisova_payroll_annual vjkpa1
 	ON vjkpa.industry_branch=vjkpa1.industry_branch 
 	AND vjkpa.`year`=vjkpa1.`year`+1
 GROUP BY vjkpa.industry_branch
-ORDER BY vjkpa.industry_branch DESC 
+ORDER BY sum_increase_flag DESC 
 

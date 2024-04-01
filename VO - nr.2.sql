@@ -1,4 +1,5 @@
 --  Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+--  Discord: jana_04527
 
 USE engeto_2024_02_22;
 

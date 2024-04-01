@@ -1,4 +1,5 @@
 -- Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+-- Discord: jana_04527
 
 use engeto_2024_02_22;
 
